@@ -1,13 +1,13 @@
 import githubLogo from "../assets/github.png";
 import { HiOutlineBell } from "react-icons/hi";
 import { BiPlus } from "react-icons/bi";
-import { BsChevronDown } from "react-icons/bs";
+import { AiOutlineCaretDown } from "react-icons/ai";
 import profile from "../assets/prashant.jpg";
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#161b22] h-14 px-7">
+    <nav className="bg-[#161b22] h-14 px-4 md:px-5">
       <div className="flex items-center h-full justify-between">
         <div className="md:hidden text-github_textWhite w-3 ">
           <FiMenu className="h-6 w-6" />
@@ -47,13 +47,13 @@ const Navbar = () => {
             <HiOutlineBell className="h-5 w-5 " />
             <div className="after:absolute after:content-[''] after:bg-github_linkBlue after:h-2.5 after:w-2.5 after:rounded-full after:top-0 after:right-0 "></div>
           </div>
-          <div className="hidden md:flex items-center cursor-pointer">
+          <div className="hidden md:flex h-full md:items-center cursor-pointer">
             <BiPlus className="h-5 w-5" />
-            <BsChevronDown className="h-3 w-3" />
+            <AiOutlineCaretDown className="h-3 w-3" />
           </div>
           <div className="hidden md:flex items-center cursor-pointer gap-x-1">
             <img src={profile} className="h-5 w-5 rounded-full" />
-            <BsChevronDown className="h-3 w-3" />
+            <AiOutlineCaretDown className="h-3 w-3" />
           </div>
         </div>
       </div>
