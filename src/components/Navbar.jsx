@@ -7,7 +7,7 @@ import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#161b22] h-14 px-4 md:px-5">
+    <nav className="bg-[#161b22] h-14 px-4 lg:px-8 md:px-5 ">
       <div className="flex items-center h-full justify-between">
         <div className="md:hidden text-github_textWhite w-3 ">
           <FiMenu className="h-6 w-6" />

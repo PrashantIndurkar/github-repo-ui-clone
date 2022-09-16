@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply px-3 bg-github_lightBlue text-github_linkBlue rounded-full text-xs py-1 font-medium hover:bg-[#3783d9] hover:text-github_textWhite mr-2 mt-1;
+  }
+}

@@ -1,0 +1,11 @@
+export { default as userC1 } from "./user1.jpeg";
+export { default as userC2 } from "./user2.jpeg";
+export { default as userC3 } from "./user3.jpeg";
+export { default as userC4 } from "./user4.jpeg";
+export { default as userC5 } from "./user5.jpeg";
+export { default as userC6 } from "./user6.png";
+export { default as userC7 } from "./user7.jpeg";
+export { default as userC8 } from "./user8.png";
+export { default as userC9 } from "./user9.jpeg";
+export { default as userC10 } from "./user10.png";
+export { default as userC11 } from "./user11.jpeg";
